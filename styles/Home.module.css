@@ -1,0 +1,174 @@
+.body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainDiv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffaeb;
+}
+
+/* HEADER PART */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7%;
+  width: 75%;
+}
+
+.logoHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  font-size: 35px;
+  background-color: #102A42;
+  border: 2px solid #e9b949;
+  color: white;
+  margin-top: 15px;
+}
+
+.rightPartHeader {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-top: 15px;
+}
+
+.aboutHeader {
+  border: 5px solid green;
+  padding: 7px;
+}
+
+.projectsHeader {
+  border: 5px solid green;
+  padding: 7px;
+}
+
+.contactHeader {
+  border: 5px solid green;
+  padding: 7px;
+}
+
+.translationHeader {
+  border: 5px solid green;
+  padding: 7px;
+}
+
+.darkLightModeHeader {
+  border: 5px solid green;
+  padding: 7px;
+}
+
+.aboutHeader, .projectsHeader, .menuHeader,
+.translationHeader, .darkLightModeHeader {
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+
+/* BODY PART */
+
+.bodyContainer {
+  height: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 15%;
+}
+
+.bodyLeftContainer {
+  border-radius: 7%;
+  display: flex;
+  flex-direction: column;
+  height: 35%;
+  width: 24%;
+}
+
+.bodyFirstLeftContainer {
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 64px;
+  color: #102A42;
+}
+
+.borderSpan {
+  border-top: 3px solid #e9b949;
+}
+
+.bodySecondLeftContainer {
+  height: fit-content;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #617D98;
+  margin-top: 1px;
+}
+
+.bodyThirdLeftContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: #102A42;
+  letter-spacing: 3px;
+}
+
+.projectBody {
+  border-radius: 8px;
+  padding: 3px;
+  height: 45px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9b949;
+  font-size: 18px;
+  transition: background-color 0.7s;
+}
+
+.projectBody:hover {
+  background-color: #f7dda0;
+}
+
+.bodyFourthLeftContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.giHubLogo {
+  font-size: 40px;
+  width: fit-content;
+  transition: 0.5s;
+}
+
+.giHubLogo:hover {
+  color: rgb(142, 141, 146);
+}
+
+.LinkedInLogo {
+  font-size: 40px;
+  width: fit-content;
+  transition: 0.5s;
+}
+
+.LinkedInLogo:hover {
+  color: #0077B5;
+}
+
+.bodyRightContainer {
+  border: 5px solid gray;
+  height: 35%;
+  width: 25%;
+}
