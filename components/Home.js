@@ -35,7 +35,7 @@ function Home() {
               <span><span className= {styles.borderSpan}>Hi, </span>I'm Alex</span>
             </div>
             <div className= {styles.bodySecondLeftContainer}>
-              <span>Full-Stack Developper By Curiosity</span>
+              <span>Full-Stack Developper By Passion</span>
             </div>
             <div className= {styles.bodyThirdLeftContainer}>
               <span className= {styles.projectBody}>My projects</span>
