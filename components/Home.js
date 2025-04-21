@@ -22,7 +22,6 @@ function Home() {
             <div className= {styles.contactHeader}>Contact</div>
             <div className= {styles.translationHeader}>
               Earth 🌎
-              {/* Menu icon will have to be insert here */}
             </div>
             <div className= {styles.darkLightModeHeader}>D/L mode 🌙</div>
           </div>
