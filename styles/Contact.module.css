@@ -1,6 +1,5 @@
 .body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .mainDiv {
@@ -9,16 +8,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fffaeb;
+  background-color: #fdf6ee;
+  color: #111111;
 }
 
 .containers {
   display: flex;
-  /* border: 5px solid blueviolet; */
-  height: 93%;
+  height: 82%;
   width: 100%;
-  font-family: var(--fontFamily);
-  font-size: var(--fontSize);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 .leftContainer {
@@ -46,9 +45,12 @@
 
 .contactTitle {
   color: #102A42;
-  font-size: 35px;
-  font-weight: 600;
-  height: 15%;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: baseline;
+  gap: 0;
 }
 
 .borderTitle {
@@ -58,7 +60,10 @@
 .contactInformation {
   margin-top: 25px;
   height: 85%;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #617d98;
 }
 
 .headerInformation {
@@ -70,25 +75,33 @@
   flex-direction: column;
 }
 
-.headerInformationTxt{
+.headerInformationTxt {
   color: #102A42;
   font-size: 20px;
 }
 
-/* .headerInformationTxtSecond {
-} */
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #111111;
+  font-size: 16px;
+}
+
+.phoneContainer,
+.mailContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
 .phoneIcon {
   margin-left: 15px;
 }
 
 .phone {
-  margin-left: 15px;
-}
-
-.emailInformation {
-  height: 10%;
-  font-size: 16px;
+  margin-left: 0;
+  letter-spacing: 1px;
 }
 
 .mailIcon {
@@ -96,7 +109,7 @@
 }
 
 .mail {
-  margin-left: 15px;
+  margin-left: 0;
   letter-spacing: 1px;
 }
 
@@ -106,13 +119,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  color: #617d98;
 }
 
 .endInformation {
   font-size: 16px;
   display: flex;
   flex-direction: column;
-  color: #617d98;
 }
 
 .logoInformation {
@@ -124,6 +137,7 @@
   font-size: 40px;
   width: fit-content;
   transition: color 0.5s;
+  color: #102A42;
 }
 
 .gitHubLogo:hover {
@@ -134,7 +148,8 @@
 .LinkedInLogo {
   font-size: 40px;
   width: fit-content;
-  transition: 0.5s;
+  transition: color 0.5s;
+  color: #102A42;
 }
 
 .LinkedInLogo:hover {
