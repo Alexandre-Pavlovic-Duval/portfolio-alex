@@ -12,104 +12,6 @@
   background-color: #fffaeb;
 }
 
-/* HEADER PART */
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 7%;
-  width: 75%;
-}
-
-.logoHeader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  width: 75px;
-  height: 75px;
-  font-size: 35px;
-  background-color: #102A42;
-  border: 2px solid #e9b949;
-  color: white;
-  margin-top: 15px;
-}
-
-.rightPartHeader {
-  display: flex;
-  align-items: center;
-  gap: 35px;
-  margin-top: 15px;
-}
-
-.aboutHeader {
-  padding: 7px;
-  transition: background-color 1.3s;
-}
-
-.aboutHeader:hover {
-  padding: 10px;
-  background-color: #102A42;
-  border: 2px solid #e9b949;
-  color: white;
-  cursor: pointer;
-}
-
-.projectsHeader {
-  padding: 7px;
-}
-
-.projectsHeader:hover {
-  padding: 10px;
-  background-color: #102A42;
-  border: 2px solid #e9b949;
-  color: white;
-  cursor: pointer;
-}
-
-.contactHeader {
-  padding: 7px;
-}
-
-.contactHeader:hover {
-  padding: 10px;
-  background-color: #102A42;
-  border: 2px solid #e9b949;
-  color: white;
-  cursor: pointer;
-}
-
-.translationHeader {
-  padding: 7px;
-}
-
-.translationHeader:hover {
-  padding: 10px;
-  background-color: #102A42;
-  border: 2px solid #e9b949;
-  color: white;
-  cursor: pointer;
-}
-
-.darkLightModeHeader {
-  padding: 7px;
-}
-
-.darkLightModeHeader:hover {
-  padding: 10px;
-  background-color: #102A42;
-  border: 2px solid #e9b949;
-  color: white;
-  cursor: pointer;
-}
-
-.aboutHeader, .projectsHeader, .contactHeader,
-.translationHeader, .darkLightModeHeader {
-  border-radius: 10px;
-  letter-spacing: 1px;
-}
-
 /* BODY PART */
 
 .bodyContainer {
@@ -184,13 +86,13 @@
   gap: 30px;
 }
 
-.giHubLogo {
+.gitHubLogo {
   font-size: 40px;
   width: fit-content;
   transition: 0.5s;
 }
 
-.giHubLogo:hover {
+.gitHubLogo:hover {
   color: rgb(142, 141, 146);
   cursor: pointer;
 }
@@ -207,7 +109,12 @@
 }
 
 .bodyRightContainer {
-  border: 5px solid gray;
-  height: 35%;
+  height: 70%;
   width: 25%;
+}
+
+.PersonnalEmoji {
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
 }

@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7%;
+    width: 75%;
+}
+  
+.logoHeader {
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+width: 75px;
+height: 75px;
+font-size: 35px;
+background-color: #102A42;
+border: 2px solid #e9b949;
+color: white;
+margin-top: 35px;
+}
+
+.rightPartHeader {
+display: flex;
+align-items: center;
+gap: 35px;
+margin-top: 20px;
+}
+
+.aboutHeader {
+padding: 7px;
+transition: background-color 1.3s;
+}
+
+.aboutHeader:hover {
+padding: 10px;
+background-color: #102A42;
+border: 2px solid #e9b949;
+color: white;
+cursor: pointer;
+}
+
+.projectsHeader {
+padding: 7px;
+transition: background-color 1.3s;
+}
+
+.projectsHeader:hover {
+padding: 10px;
+background-color: #102A42;
+border: 2px solid #e9b949;
+color: white;
+cursor: pointer;
+}
+
+.contactHeader {
+padding: 7px;
+transition: background-color 1.3s;
+}
+
+.contactHeader:hover {
+padding: 10px;
+background-color: #102A42;
+border: 2px solid #e9b949;
+color: white;
+cursor: pointer;
+}
+
+.translationHeader {
+padding: 7px;
+transition: background-color 1.3s;
+}
+
+.translationHeader:hover {
+padding: 10px;
+background-color: #102A42;
+border: 2px solid #e9b949;
+color: white;
+cursor: pointer;
+}
+
+.darkLightModeHeader {
+padding: 7px;
+transition: background-color 1.3s;
+}
+
+.darkLightModeHeader:hover {
+padding: 10px;
+background-color: #102A42;
+border: 2px solid #e9b949;
+color: white;
+cursor: pointer;
+}
+
+.aboutHeader, .projectsHeader, .contactHeader,
+.translationHeader, .darkLightModeHeader {
+border-radius: 10px;
+letter-spacing: 1px;
+}

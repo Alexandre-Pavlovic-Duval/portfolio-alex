@@ -1,31 +1,17 @@
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import Headers from './Headers';
 
 function Home() {
-  const github= <FontAwesomeIcon icon={faGithub} className= {styles.giHubLogo} />
+  const github= <FontAwesomeIcon icon={faGithub} className= {styles.gitHubLogo} />
   const linkedin= <FontAwesomeIcon icon={faLinkedin} className= {styles.LinkedInLogo} />
 
   return (
-    <div>
       <div className= {styles.mainDiv}>
-        {/* Header */}
-        <header className= {styles.header}>
-          
-          <div className= {styles.leftPartHeader}>
-            <div className= {styles.logoHeader}>APD</div>
-          </div>
-
-          <div className= {styles.rightPartHeader}>
-            <div className= {styles.aboutHeader}>About</div>
-            <div className= {styles.projectsHeader}>Projects</div>
-            <div className= {styles.contactHeader}>Contact</div>
-            <div className= {styles.translationHeader}>
-              Earth 🌎
-            </div>
-            <div className= {styles.darkLightModeHeader}>D/L mode 🌙</div>
-          </div>
-        </header>
+        {/* Header part */}
+        <Headers />
 
         {/* Body part */}
         <div className= {styles.bodyContainer}>
@@ -38,7 +24,7 @@ function Home() {
               <span>Full-Stack Developper By Passion</span>
             </div>
             <div className= {styles.bodyThirdLeftContainer}>
-              <span className= {styles.projectBody}>My projects</span>
+              <span className= {styles.projectBody}>My Projects</span>
             </div>
             <div className= {styles.bodyFourthLeftContainer}>
               <div className= {styles.gitHubLink}>{github}</div>
@@ -47,12 +33,10 @@ function Home() {
           </div>
 
           <div className= {styles.bodyRightContainer}>
-            Cool Picture or Something
-            {/* CONTAINER FOR SMTH TBD <div className= {styles.}></div> */}
-          </div>
+            <img src="AlexandreEmoji.png" alt="PersonnalEmoji" className={styles.PersonnalEmoji}/>
+          </div> 
         </div>
       </div>
-    </div>
   );
 }
 
